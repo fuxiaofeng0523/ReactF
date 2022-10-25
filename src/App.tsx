@@ -1,5 +1,9 @@
 import React from 'react'
-
+import LayoutPage from './layout'
 export default function App() {
-  return <div>App</div>
+  return (
+    <>
+      <LayoutPage></LayoutPage>
+    </>
+  )
 }

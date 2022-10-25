@@ -1,0 +1,44 @@
+.header {
+  position: relative;
+  height: 400rem;
+  width: 100%;
+  top: 108rem;
+  background-size: cover;
+  background-image: url(https://tva2.sinaimg.cn/mw2000/00858VDpgy1h72f6iwd4lg30ku0aj4qs.gif);
+  .logo {
+    height: 64rem;
+    left: 50%;
+    bottom: 130rem;
+    position: absolute;
+    transform: translateX(-50%);
+    img {
+      height: 80%;
+    }
+  }
+  .search {
+    width: 90%;
+    left: 50%;
+    position: absolute;
+    bottom: 20rem;
+    transform: translateX(-50%);
+    background: #fff;
+    box-shadow: 0 7px 21px rgb(149 157 165 / 22%), 0 0 1px rgb(0 0 0 / 10%);
+    height: 100rem;
+    border-radius: 20rem;
+    overflow: hidden;
+    input {
+      height: 100%;
+      width: calc(100% - 140rem);
+      border: 0;
+      font-size: 32rem;
+      padding-left: 40rem;
+      outline: none;
+    }
+    button {
+      height: 100rem;
+      width: 100rem;
+      border: 0;
+      background-color: #fff;
+    }
+  }
+}

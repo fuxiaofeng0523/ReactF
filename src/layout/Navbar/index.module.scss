@@ -1,0 +1,29 @@
+.Navbar {
+  width: 100%;
+  font-size: 32rem;
+  font-weight: bold;
+  display: flex;
+  position: fixed;
+  padding: 10rem;
+  z-index: 9999;
+  .NavList {
+    list-style: none;
+    display: flex;
+    a {
+      height: 88rem;
+      line-height: 88rem;
+      padding: 0 20rem;
+    }
+  }
+  .right {
+    position: absolute;
+    right: 60rem;
+    display: flex;
+    height: 88rem;
+    line-height: 88rem;
+    box-shadow: -15px 0 10px -12px rgb(0 0 0 / 20%);
+    div {
+      margin-left: 40rem;
+    }
+  }
+}
